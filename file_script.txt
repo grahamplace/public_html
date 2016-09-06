@@ -1,0 +1,10 @@
+#!/bin/bash
+
+declare -a files=`find -name "*.html"`
+for i in $files
+do
+	echo $i
+done
+
+
+
