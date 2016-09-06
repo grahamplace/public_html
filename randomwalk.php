@@ -4,7 +4,7 @@
 
 <body>
 <?php $cmd = "/home/u20/grahamplace/public_html/randomwalk"; ?>
-<p><?php passthru($cmd); ?> </p>
+<p><?php <pre> passthru($cmd) </pre>; ?> </p>
 <br>
 </body>
 
