@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$day=date +"%u"
+day= date +"%u"
 
 if [ $day -eq 6 ]; then
 	echo “It’s the weekend!”
