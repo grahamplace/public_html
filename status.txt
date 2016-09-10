@@ -1,0 +1,20 @@
+#!/bin/bash
+
+
+day=$(date +"%u")
+
+if [ "$day" == 6  ] || [ "$day" == 7 ]; then
+	echo “It’s a weekend!”
+else 
+	echo “It’s a weekday!”
+fi
+
+
+printenv 
+
+
+declare -a files=`find -name "*.html"`
+for i in $files
+do
+	echo $i
+done
